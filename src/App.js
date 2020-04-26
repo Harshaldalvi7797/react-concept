@@ -10,12 +10,14 @@ import Parent from "./component/Parent.component";
 import RefsDemo from "./component/RefsDemo";
 import Input from "./component/Input ";
 import FocusInput from "./component/focusInput";
+import FRIParent from "./component/FRIParentInput";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <FocusInput />
+        <FRIParent />
+        {/* <FocusInput /> */}
         {/* <Input /> */}
         {/* <RefsDemo /> */}
         {/* <Parent /> */}
