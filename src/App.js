@@ -8,12 +8,16 @@ import Table from "./component/Table";
 import Pure from "./component/Pure.component";
 import Parent from "./component/Parent.component";
 import RefsDemo from "./component/RefsDemo";
+import Input from "./component/Input ";
+import FocusInput from "./component/focusInput";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <RefsDemo />
+        <FocusInput />
+        {/* <Input /> */}
+        {/* <RefsDemo /> */}
         {/* <Parent /> */}
         {/* <FragmentDemo /> */}
         {/* <Table /> */}
