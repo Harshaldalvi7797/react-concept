@@ -17,12 +17,14 @@ import ClickcounterTwo from "./component/clickCounterTwo";
 import HoverCounterTwo from "./component/HoverCounterTwo";
 import User from "./component/User";
 import Counter from "./component/Counter";
+import PostList from "./PostList";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <Counter
+        <PostList />
+        {/* <Counter
           render={(count, inCrementCount) => (
             <ClickcounterTwo count={count} inCrementCount={inCrementCount} />
           )}
@@ -33,7 +35,7 @@ class App extends Component {
           )}
         />
 
-        <User name={() => "Harshal"} />
+        <User name={() => "Harshal"} /> */}
         {/* <PortalDemo /> */}
         {/* <FRIParent /> */}
         {/* <FocusInput /> */}
